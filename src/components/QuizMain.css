@@ -1,0 +1,43 @@
+.NextStep{
+    background-color: #009e00;
+    color:#fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.NextStep:hover{
+    background-color: green;
+}
+.NextStep[disabled]{
+    display: none;
+}
+.content{
+    width: 80%;
+  height: auto;
+  min-height: 400px;
+  background: #053742;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+}
+.finalPage{
+    text-align: center;
+}
+.finalPage h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #008416;
+    text-transform: none;
+    text-shadow: none;
+}
+.change{
+    color: cadetblue;
+}
